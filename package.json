@@ -1,6 +1,6 @@
 {
   "name": "ramdonmsg",
-  "version": "1.0.0",
+  "version": "^1.0.0",
   "description": "random de mensajes",
   "main": "src/index.js",
   "scripts": {
@@ -14,7 +14,15 @@
   "author": "Carolina Salazar <cindy.s.r.28@hotmail.com>",
   "license": "MIT",
   "bin": {
-    "random-msg": "./src/bin/global.js"
+    "random-msg": "src/bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carosalazar28/npm-message.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carosalazar28/npm-message/issues"
+  },
+  "homepage": "https://github.com/carosalazar28/npm-message#readme"
 }
